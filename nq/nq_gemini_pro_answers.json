@@ -1,0 +1,3440 @@
+[
+    {
+        "id": "4073418639113603971",
+        "input": "who sang i dig rock and roll music",
+        "response": "Peter and Gordon",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Peter and Gordon",
+                    "sang",
+                    "i dig rock and roll music"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Neutral"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Peter and Gordon",
+                    "sang",
+                    "i dig rock and roll music"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Neutral"
+            }
+        ]
+    },
+    {
+        "id": "-3339006116507262453",
+        "input": "who sang i ran all the way home",
+        "response": "The song \"I Ran (So Far Away)\" was sung by A Flock of Seagulls.",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "I Ran (So Far Away)",
+                    "was sung by",
+                    "A Flock of Seagulls"
+                ],
+                "gpt4_label": "Neutral",
+                "claude2_label": "Contradiction",
+                "nli_label": "Neutral"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "The song \"I Ran (So Far Away)\"",
+                    "sung by",
+                    "A Flock of Seagulls"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Neutral",
+                "nli_label": "Neutral"
+            }
+        ]
+    },
+    {
+        "id": "-1582234629547061501",
+        "input": "who sang i'm gonna run away from you",
+        "response": "Tamia",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Tamia",
+                    "sang",
+                    "i'm gonna run away from you"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Tamia",
+                    "sang",
+                    "i'm gonna run away from you"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "2223188268381215709",
+        "input": "who presides over the joint sessions of parliament",
+        "response": "President of India",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "President of India",
+                    "presides over",
+                    "joint sessions of parliament"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Neutral",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "President of India",
+                    "presides over",
+                    "joint sessions of parliament"
+                ],
+                "claude2_label": "Neutral",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-8883866849303680195",
+        "input": "who plays steve's wife on my three sons",
+        "response": "Barbara Billingsley",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Barbara Billingsley",
+                    "plays",
+                    "Steve's wife on My Three Sons"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Barbara Billingsley",
+                    "plays",
+                    "steve's wife"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Barbara Billingsley",
+                    "plays role in",
+                    "my three sons"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Neutral",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-3476455683698256952",
+        "input": "who played the judge in good will hunting",
+        "response": "Jack Nicholson",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Jack Nicholson",
+                    "played",
+                    "the judge in Good Will Hunting"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Neutral"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Jack Nicholson",
+                    "played",
+                    "the judge"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Neutral"
+            },
+            {
+                "triplet": [
+                    "Jack Nicholson",
+                    "played role in movie",
+                    "Good Will Hunting"
+                ],
+                "claude2_label": "Neutral",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-5646056836091194880",
+        "input": "name two fibres which are made of proteins",
+        "response": "1. Collagen\n2. Keratin",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Collagen",
+                    "is made of",
+                    "proteins"
+                ],
+                "gpt4_label": "Neutral",
+                "claude2_label": "Neutral",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Keratin",
+                    "is made of",
+                    "proteins"
+                ],
+                "gpt4_label": "Neutral",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Collagen",
+                    "is a",
+                    "fibre made of proteins"
+                ],
+                "claude2_label": "Neutral",
+                "gpt4_label": "Neutral",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Keratin",
+                    "is a",
+                    "fibre made of proteins"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Neutral",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-5003538501505873412",
+        "input": "who sang i dreamed a dream in les miserables",
+        "response": "Anne Hathaway",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Anne Hathaway",
+                    "sang",
+                    "I Dreamed a Dream in Les Miserables"
+                ],
+                "gpt4_label": "Neutral",
+                "claude2_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Anne Hathaway",
+                    "sang",
+                    "i dreamed a dream"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Neutral",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "i dreamed a dream",
+                    "in",
+                    "les miserables"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-8680361524959876970",
+        "input": "where does the term parsons nose come from",
+        "response": "",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Parson's nose",
+                    "originated in",
+                    "18th century"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Contradiction"
+            },
+            {
+                "triplet": [
+                    "Parson's nose",
+                    "derived from",
+                    "French phrase 'sot-l'y-laisse'"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Contradiction"
+            },
+            {
+                "triplet": [
+                    "French phrase 'sot-l'y-laisse'",
+                    "means",
+                    "the fool leaves it there"
+                ],
+                "gpt4_label": "Neutral",
+                "claude2_label": "Neutral",
+                "nli_label": "Contradiction"
+            },
+            {
+                "triplet": [
+                    "Parson's nose",
+                    "is",
+                    "fleshy part at the end of a cooked fowl"
+                ],
+                "gpt4_label": "Neutral",
+                "claude2_label": "Entailment",
+                "nli_label": "Contradiction"
+            },
+            {
+                "triplet": [
+                    "Parson's nose",
+                    "was often",
+                    "left behind"
+                ],
+                "gpt4_label": "Neutral",
+                "claude2_label": "Neutral",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Parson's nose",
+                    "was considered",
+                    "inedible"
+                ],
+                "gpt4_label": "Neutral",
+                "claude2_label": "Neutral",
+                "nli_label": "Neutral"
+            },
+            {
+                "triplet": [
+                    "Parson's nose",
+                    "is now considered",
+                    "delicacy"
+                ],
+                "gpt4_label": "Neutral",
+                "claude2_label": "Neutral",
+                "nli_label": "Neutral"
+            }
+        ],
+        "claude2_response_kg": []
+    },
+    {
+        "id": "-6500826823871433949",
+        "input": "who made the first to record with the electric guitar",
+        "response": "Les Paul",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Les Paul",
+                    "made",
+                    "first record with the electric guitar"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Neutral"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Les Paul",
+                    "made",
+                    "the first to record with the electric guitar"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Neutral"
+            }
+        ]
+    },
+    {
+        "id": "1851594182842213971",
+        "input": "when did gimme gimme gimme start",
+        "response": "1979",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Gimme Gimme Gimme",
+                    "start year",
+                    "1979"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "gimme gimme gimme",
+                    "start year",
+                    "1979"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-2651390481836592629",
+        "input": "when did rob dyrdek's fantasy factory end",
+        "response": "2015",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Rob Dyrdek's Fantasy Factory",
+                    "end date",
+                    "2015"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "rob dyrdek's fantasy factory",
+                    "ended in",
+                    "2015"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "7422852161474049311",
+        "input": "what kind of dog is charkie from curious george",
+        "response": "Charkie is a Jack Russell Terrier, not a dog.",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Charkie",
+                    "is",
+                    "Jack Russell Terrier"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Contradiction"
+            },
+            {
+                "triplet": [
+                    "Charkie",
+                    "is not",
+                    "dog"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Contradiction"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Charkie",
+                    "is a",
+                    "Jack Russell Terrier"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Contradiction"
+            },
+            {
+                "triplet": [
+                    "Charkie",
+                    "not a",
+                    "dog"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Contradiction"
+            },
+            {
+                "triplet": [
+                    "Charkie",
+                    "from",
+                    "Curious George"
+                ],
+                "claude2_label": "Neutral",
+                "gpt4_label": "Neutral",
+                "nli_label": "Neutral"
+            }
+        ]
+    },
+    {
+        "id": "238018115866608950",
+        "input": "when was how deep is your love released",
+        "response": "September 25, 1977",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "How Deep Is Your Love",
+                    "released on",
+                    "September 25, 1977"
+                ],
+                "gpt4_label": "Neutral",
+                "claude2_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "how deep is your love",
+                    "released on",
+                    "September 25, 1977"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Neutral",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-6395885127392955720",
+        "input": "where does jack ryan live in patriot games",
+        "response": "London",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Jack Ryan",
+                    "lives in",
+                    "London"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Neutral",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "jack ryan",
+                    "lives in",
+                    "London"
+                ],
+                "claude2_label": "Neutral",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "2536150218240275989",
+        "input": "who sang will i see you in september",
+        "response": "Earth, Wind & Fire",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Earth, Wind & Fire",
+                    "sang",
+                    "Will I See You in September"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Earth, Wind & Fire",
+                    "sang",
+                    "will i see you in september"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-3170493396531530980",
+        "input": "who wrote the song always be humble and kind",
+        "response": "Tim McGraw",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Tim McGraw",
+                    "wrote",
+                    "the song always be humble and kind"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Contradiction"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Tim McGraw",
+                    "wrote",
+                    "the song always be humble and kind"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Contradiction"
+            }
+        ]
+    },
+    {
+        "id": "-204697481439605710",
+        "input": "who wrote i'm in the mood for dancing",
+        "response": "Nolan Strong & The Diablos",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Nolan Strong & The Diablos",
+                    "wrote",
+                    "i'm in the mood for dancing"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Neutral"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Nolan Strong & The Diablos",
+                    "wrote",
+                    "i'm in the mood for dancing"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Neutral"
+            }
+        ]
+    },
+    {
+        "id": "-4283464153717448291",
+        "input": "who played mrs. trumbull on i love lucy",
+        "response": "",
+        "gpt4_response_kg": [],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "subject",
+                    "relation",
+                    "object"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-853451338783771197",
+        "input": "who wrote when a man loves a woman",
+        "response": "Calvin Lewis and Andrew Wright",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Calvin Lewis",
+                    "co-wrote",
+                    "when a man loves a woman"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Andrew Wright",
+                    "co-wrote",
+                    "when a man loves a woman"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Calvin Lewis",
+                    "wrote",
+                    "when a man loves a woman"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Andrew Wright",
+                    "wrote",
+                    "when a man loves a woman"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-1388143263608839064",
+        "input": "where does the last name waters come from",
+        "response": "",
+        "gpt4_response_kg": [],
+        "claude2_response_kg": []
+    },
+    {
+        "id": "3413977600585971868",
+        "input": "who played john connor in the original terminator",
+        "response": "Edward Furlong",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Edward Furlong",
+                    "played",
+                    "John Connor in the original Terminator"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Edward Furlong",
+                    "played",
+                    "john connor"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "john connor",
+                    "in",
+                    "the original terminator"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-4834721811831894172",
+        "input": "when is the strictly come dancing results show recorded",
+        "response": "The Strictly Come Dancing results show is recorded on the same day as the live show, usually on a Sunday evening. The recording typically takes place after the live show has finished airing, around 9:30pm. This allows the production team to edit the results show and include any necessary changes before it is broadcast on television.",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "The Strictly Come Dancing results show",
+                    "is recorded on",
+                    "the same day as the live show"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Contradiction",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "The Strictly Come Dancing results show",
+                    "is recorded usually on",
+                    "a Sunday evening"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Contradiction"
+            },
+            {
+                "triplet": [
+                    "The Strictly Come Dancing results show",
+                    "is recorded around",
+                    "9:30pm"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Contradiction",
+                "nli_label": "Neutral"
+            },
+            {
+                "triplet": [
+                    "The Strictly Come Dancing results show",
+                    "allows",
+                    "the production team to edit the results show and include any necessary changes before it is broadcast on television"
+                ],
+                "gpt4_label": "Neutral",
+                "claude2_label": "Neutral",
+                "nli_label": "Neutral"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Strictly Come Dancing results show",
+                    "recorded on",
+                    "same day as live show"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Strictly Come Dancing live show",
+                    "airs on",
+                    "Sunday evening"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Neutral"
+            },
+            {
+                "triplet": [
+                    "Strictly Come Dancing results show",
+                    "recorded around",
+                    "9:30pm"
+                ],
+                "claude2_label": "Neutral",
+                "gpt4_label": "Entailment",
+                "nli_label": "Neutral"
+            },
+            {
+                "triplet": [
+                    "Recording of Strictly Come Dancing results show",
+                    "allows",
+                    "production team to edit results show"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Neutral",
+                "nli_label": "Neutral"
+            },
+            {
+                "triplet": [
+                    "Editing of Strictly Come Dancing results show",
+                    "done before",
+                    "broadcast on television"
+                ],
+                "claude2_label": "Neutral",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-6591614197125818072",
+        "input": "who led the soldiers in ending the raid on the harper's ferry arsenal",
+        "response": "Robert E. Lee",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Robert E. Lee",
+                    "led",
+                    "soldiers"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Robert E. Lee",
+                    "ended",
+                    "raid on the harper's ferry arsenal"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Robert E. Lee",
+                    "led",
+                    "soldiers"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Robert E. Lee",
+                    "ended",
+                    "raid on the harper's ferry arsenal"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "2339339749699668536",
+        "input": "who performed the halftime show at super bowl 51",
+        "response": "Lady Gaga",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Super Bowl 51",
+                    "halftime show performed by",
+                    "Lady Gaga"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Lady Gaga",
+                    "performed",
+                    "halftime show"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "halftime show",
+                    "at event",
+                    "super bowl 51"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "7526277995958905171",
+        "input": "who sings too much time on my hands lyrics",
+        "response": "Bobby Vee",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Bobby Vee",
+                    "sings",
+                    "too much time on my hands lyrics"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Neutral"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Bobby Vee",
+                    "sings",
+                    "too much time on my hands lyrics"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Neutral"
+            }
+        ]
+    },
+    {
+        "id": "-2419576910417046724",
+        "input": "what is the longest pier in the uk",
+        "response": "Southend Pier",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Southend Pier",
+                    "is",
+                    "longest pier in the UK"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Neutral"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Southend Pier",
+                    "is",
+                    "the longest pier in the uk"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Neutral"
+            }
+        ]
+    },
+    {
+        "id": "-1773607187248198254",
+        "input": "who sings that aint no way to go",
+        "response": "",
+        "gpt4_response_kg": [],
+        "claude2_response_kg": []
+    },
+    {
+        "id": "4086158102790148091",
+        "input": "who sings i want to dance with you",
+        "response": "George Michael",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "George Michael",
+                    "sings",
+                    "i want to dance with you"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "George Michael",
+                    "sings",
+                    "i want to dance with you"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-1732734622903151644",
+        "input": "oldest recording of house of the rising sun",
+        "response": "",
+        "gpt4_response_kg": [],
+        "claude2_response_kg": []
+    },
+    {
+        "id": "-7778233237890403173",
+        "input": "where did they film the show the crossing",
+        "response": "Vancouver, British Columbia, Canada",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "The show The Crossing",
+                    "filmed in",
+                    "Vancouver, British Columbia, Canada"
+                ],
+                "gpt4_label": "Neutral",
+                "claude2_label": "Entailment",
+                "nli_label": "Neutral"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "the show the crossing",
+                    "filmed in",
+                    "Vancouver, British Columbia, Canada"
+                ],
+                "claude2_label": "Neutral",
+                "gpt4_label": "Neutral",
+                "nli_label": "Neutral"
+            }
+        ]
+    },
+    {
+        "id": "583026970021621830",
+        "input": "who invented the first home video security system",
+        "response": "Marie Van Brittan Brown",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Marie Van Brittan Brown",
+                    "invented",
+                    "first home video security system"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Neutral"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Marie Van Brittan Brown",
+                    "invented",
+                    "the first home video security system"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Neutral"
+            }
+        ]
+    },
+    {
+        "id": "5185978890489959594",
+        "input": "who drives the number 95 car in nascar",
+        "response": "Christopher Bell",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Christopher Bell",
+                    "drives",
+                    "number 95 car in nascar"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Neutral"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Christopher Bell",
+                    "drives",
+                    "the number 95 car"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Neutral"
+            },
+            {
+                "triplet": [
+                    "the number 95 car",
+                    "in",
+                    "nascar"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-1531676396763282931",
+        "input": "which greek god flew too close to the sun",
+        "response": "Icarus",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Icarus",
+                    "flew too close to",
+                    "the sun"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Icarus",
+                    "is",
+                    "greek god"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Icarus",
+                    "flew too close to",
+                    "the sun"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "5078709962400196312",
+        "input": "what mlb teams did deion sanders play for",
+        "response": "Deion Sanders never played in Major League Baseball (MLB). He was a professional football player who played in the National Football League (NFL) and a professional baseball player who played in the Major League Baseball (MLB).",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Deion Sanders",
+                    "played in",
+                    "National Football League (NFL)"
+                ],
+                "gpt4_label": "Neutral",
+                "claude2_label": "Contradiction",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Deion Sanders",
+                    "played in",
+                    "Major League Baseball (MLB)"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Deion Sanders",
+                    "is",
+                    "professional football player"
+                ],
+                "gpt4_label": "Neutral",
+                "claude2_label": "Contradiction",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Deion Sanders",
+                    "is",
+                    "professional baseball player"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Deion Sanders",
+                    "never played in",
+                    "Major League Baseball (MLB)"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Contradiction"
+            },
+            {
+                "triplet": [
+                    "Deion Sanders",
+                    "was",
+                    "professional football player"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Neutral",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Deion Sanders",
+                    "played in",
+                    "National Football League (NFL)"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Neutral",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Deion Sanders",
+                    "was",
+                    "professional baseball player"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Deion Sanders",
+                    "played in",
+                    "Major League Baseball (MLB)"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-7296166998534064378",
+        "input": "who played the middle sister on full house",
+        "response": "Candace Cameron Bure",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Candace Cameron Bure",
+                    "played",
+                    "middle sister on Full House"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Entailment",
+                "nli_label": "Neutral"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Candace Cameron Bure",
+                    "played",
+                    "the middle sister"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Neutral"
+            },
+            {
+                "triplet": [
+                    "Candace Cameron Bure",
+                    "played in",
+                    "Full House"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Neutral",
+                "nli_label": "Neutral"
+            }
+        ]
+    },
+    {
+        "id": "734309880189507498",
+        "input": "who played dwight's brother on the office",
+        "response": "Rainn Wilson",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Rainn Wilson",
+                    "played",
+                    "Dwight's brother on The Office"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Neutral"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Rainn Wilson",
+                    "played",
+                    "dwight's brother"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Neutral"
+            },
+            {
+                "triplet": [
+                    "dwight's brother",
+                    "on",
+                    "the office"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "5063128834246440475",
+        "input": "only player to play for manchester united manchester city liverpool and everton",
+        "response": "Peter Beardsley",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Peter Beardsley",
+                    "played for",
+                    "Manchester United"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Peter Beardsley",
+                    "played for",
+                    "Manchester City"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Peter Beardsley",
+                    "played for",
+                    "Liverpool"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Peter Beardsley",
+                    "played for",
+                    "Everton"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Peter Beardsley",
+                    "only player to play for",
+                    "manchester united"
+                ],
+                "claude2_label": "Neutral",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Peter Beardsley",
+                    "only player to play for",
+                    "manchester city"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Peter Beardsley",
+                    "only player to play for",
+                    "liverpool"
+                ],
+                "claude2_label": "Neutral",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Peter Beardsley",
+                    "only player to play for",
+                    "everton"
+                ],
+                "claude2_label": "Neutral",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Neutral"
+            }
+        ]
+    },
+    {
+        "id": "5239772721292332989",
+        "input": "where would the group bacteroids likely be found",
+        "response": "Root nodules of leguminous plants",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Bacteroids",
+                    "found in",
+                    "Root nodules of leguminous plants"
+                ],
+                "gpt4_label": "Neutral",
+                "claude2_label": "Contradiction",
+                "nli_label": "Neutral"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "group bacteroids",
+                    "likely found in",
+                    "Root nodules of leguminous plants"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Neutral",
+                "nli_label": "Neutral"
+            }
+        ]
+    },
+    {
+        "id": "6217752837777787594",
+        "input": "who plays heather in beauty and the beast",
+        "response": "Emma Watson",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Emma Watson",
+                    "plays",
+                    "Heather in Beauty and the Beast"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Contradiction"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Emma Watson",
+                    "plays",
+                    "Heather"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Neutral"
+            },
+            {
+                "triplet": [
+                    "Heather",
+                    "character in",
+                    "Beauty and the Beast"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "6882831655380911332",
+        "input": "which british city is farthest from the sea",
+        "response": "Birmingham",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Birmingham",
+                    "is",
+                    "farthest British city from the sea"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Contradiction"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Birmingham",
+                    "is",
+                    "british city"
+                ],
+                "claude2_label": "Neutral",
+                "gpt4_label": "Neutral",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Birmingham",
+                    "is farthest from",
+                    "the sea"
+                ],
+                "claude2_label": "Neutral",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Contradiction"
+            }
+        ]
+    },
+    {
+        "id": "-1222948057007052760",
+        "input": "how many players on the line of scrimmage in american football",
+        "response": "11",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "American football",
+                    "number of players on the line of scrimmage",
+                    "11"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "number of players on the line of scrimmage in american football",
+                    "is",
+                    "11"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Contradiction"
+            }
+        ]
+    },
+    {
+        "id": "-278447034238251050",
+        "input": "how many episodes in my name is earl season 4",
+        "response": "27",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "My Name Is Earl Season 4",
+                    "number of episodes",
+                    "27"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "my name is earl season 4",
+                    "has",
+                    "27 episodes"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-4882553194262710105",
+        "input": "what is the salary of us secretary of state",
+        "response": "",
+        "gpt4_response_kg": [],
+        "claude2_response_kg": []
+    },
+    {
+        "id": "5901661238535651276",
+        "input": "who plays nikko in the wizard of oz",
+        "response": "Nikko is not a character in the Wizard of Oz.",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Nikko",
+                    "is character in",
+                    "Wizard of Oz"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Nikko",
+                    "status",
+                    "not a character"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Contradiction"
+            }
+        ],
+        "claude2_response_kg": []
+    },
+    {
+        "id": "5217063434217549041",
+        "input": "where does the sun hit the us first",
+        "response": "Hawaii",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Sun",
+                    "hits first",
+                    "Hawaii"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Hawaii",
+                    "is",
+                    "where the sun hits the US first"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-8544960023313580012",
+        "input": "first who wants to be a millionaire winner uk",
+        "response": "Judith Keppel",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Judith Keppel",
+                    "is",
+                    "first who wants to be a millionaire winner uk"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Judith Keppel",
+                    "is",
+                    "first who wants to be a millionaire winner uk"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "4272117895813370426",
+        "input": "coldplay song i will try to fix you",
+        "response": "",
+        "gpt4_response_kg": [],
+        "claude2_response_kg": []
+    },
+    {
+        "id": "4245798066923223457",
+        "input": "who has the most all star mvp awards",
+        "response": "Kareem Abdul-Jabbar",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Kareem Abdul-Jabbar",
+                    "has",
+                    "most all star mvp awards"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Kareem Abdul-Jabbar",
+                    "has the most",
+                    "all star mvp awards"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "8852834747561852791",
+        "input": "who established the idea that microorganisms play a role in disease",
+        "response": "Louis Pasteur",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Louis Pasteur",
+                    "established",
+                    "idea that microorganisms play a role in disease"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Louis Pasteur",
+                    "established",
+                    "idea that microorganisms play a role in disease"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-5039045537721106027",
+        "input": "how many episodes are there in season six of nashville",
+        "response": "22",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Season six of Nashville",
+                    "number of episodes",
+                    "22"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "number of episodes in season six of nashville",
+                    "is",
+                    "22"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-6687867009117829006",
+        "input": "who turns into a bear in the hobbit",
+        "response": "",
+        "gpt4_response_kg": [],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Beorn",
+                    "turns into",
+                    "a bear"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Beorn",
+                    "appears in",
+                    "The Hobbit"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-6933377434468493740",
+        "input": "who wrote i can feel at home in this world anymore",
+        "response": "Michelle Zauner",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Michelle Zauner",
+                    "wrote",
+                    "i can feel at home in this world anymore"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Neutral"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Michelle Zauner",
+                    "wrote",
+                    "i can feel at home in this world anymore"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Neutral"
+            }
+        ]
+    },
+    {
+        "id": "850563670386330666",
+        "input": "when did the wave hill walk off end",
+        "response": "The Wave Hill walk off ended on June 27, 1969.",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Wave Hill walk off",
+                    "ended on",
+                    "June 27, 1969"
+                ],
+                "gpt4_label": "Neutral",
+                "claude2_label": "Contradiction",
+                "nli_label": "Contradiction"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "The Wave Hill walk off",
+                    "ended on",
+                    "June 27, 1969"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Neutral",
+                "nli_label": "Contradiction"
+            }
+        ]
+    },
+    {
+        "id": "-8490085242981497626",
+        "input": "who sang gonna sit right down and write myself a letter",
+        "response": "Fats Waller",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Fats Waller",
+                    "sang",
+                    "gonna sit right down and write myself a letter"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Fats Waller",
+                    "sang",
+                    "gonna sit right down and write myself a letter"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "8361850218460994084",
+        "input": "who is known as father of green revolution in india",
+        "response": "M. S. Swaminathan",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "M. S. Swaminathan",
+                    "is known as",
+                    "father of green revolution in india"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "M. S. Swaminathan",
+                    "known as",
+                    "father of green revolution in india"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "5259818422556035007",
+        "input": "who sings good night on the beatles white album",
+        "response": "Ringo Starr",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Ringo Starr",
+                    "sings",
+                    "Good Night on the Beatles White Album"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Ringo Starr",
+                    "sings",
+                    "good night"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "good night",
+                    "song on album",
+                    "the beatles white album"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "465961107727601737",
+        "input": "who picks the chief justice of the illinois supreme court",
+        "response": "",
+        "gpt4_response_kg": [],
+        "claude2_response_kg": []
+    },
+    {
+        "id": "-5525220120773157166",
+        "input": "who sings the song i want to go outside in the rain",
+        "response": "Etta James",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Etta James",
+                    "sings",
+                    "i want to go outside in the rain"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Neutral"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Etta James",
+                    "sings",
+                    "the song i want to go outside in the rain"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Neutral"
+            }
+        ]
+    },
+    {
+        "id": "-2107324154024383180",
+        "input": "who wrote and performed i can only imagine",
+        "response": "MercyMe",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "MercyMe",
+                    "wrote and performed",
+                    "I Can Only Imagine"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "MercyMe",
+                    "wrote",
+                    "i can only imagine"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "MercyMe",
+                    "performed",
+                    "i can only imagine"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-2126374007719970792",
+        "input": "what olympic athlete has won the most medals",
+        "response": "Michael Phelps",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Michael Phelps",
+                    "is",
+                    "olympic athlete"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Michael Phelps",
+                    "has won",
+                    "most medals"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Michael Phelps",
+                    "is",
+                    "olympic athlete"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Michael Phelps",
+                    "has won",
+                    "most medals"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-1123449784666821676",
+        "input": "who sings the wire season 5 theme song",
+        "response": "The Wire season 5 theme song is \"Way Down in the Hole\" by The Blind Boys of Alabama.",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "The Wire season 5 theme song",
+                    "is",
+                    "Way Down in the Hole"
+                ],
+                "gpt4_label": "Neutral",
+                "claude2_label": "Contradiction",
+                "nli_label": "Neutral"
+            },
+            {
+                "triplet": [
+                    "Way Down in the Hole",
+                    "sung by",
+                    "The Blind Boys of Alabama"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "The Wire season 5 theme song",
+                    "is",
+                    "Way Down in the Hole"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Neutral",
+                "nli_label": "Neutral"
+            },
+            {
+                "triplet": [
+                    "The Wire season 5 theme song",
+                    "performed by",
+                    "The Blind Boys of Alabama"
+                ],
+                "claude2_label": "Neutral",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "4265986416867251482",
+        "input": "who invented the submarine during the civil war",
+        "response": "No submarines were invented during the American Civil War.",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Submarines",
+                    "invented during",
+                    "American Civil War"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "American Civil War",
+                    "had",
+                    "No submarines"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Contradiction"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "submarines",
+                    "invented during",
+                    "American Civil War"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "American Civil War",
+                    "time period of invention of submarines",
+                    "None"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Entailment",
+                "nli_label": "Contradiction"
+            }
+        ]
+    },
+    {
+        "id": "2141218895657905276",
+        "input": "who played tom on as the world turns",
+        "response": "Scott Holmes",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Scott Holmes",
+                    "played",
+                    "Tom on As the World Turns"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Neutral"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Scott Holmes",
+                    "played",
+                    "tom"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Neutral"
+            },
+            {
+                "triplet": [
+                    "tom",
+                    "character on",
+                    "as the world turns"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Neutral"
+            }
+        ]
+    },
+    {
+        "id": "6672231732847608194",
+        "input": "who sang the theme song for laverne and shirley",
+        "response": "Cyndi Grecco",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Cyndi Grecco",
+                    "sang",
+                    "theme song for Laverne and Shirley"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Cyndi Grecco",
+                    "sang",
+                    "the theme song"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "the theme song",
+                    "for",
+                    "laverne and shirley"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "4943207042321394497",
+        "input": "when did 10 shilling note go out of circulation",
+        "response": "1969",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "10 shilling note",
+                    "went out of circulation in",
+                    "1969"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "10 shilling note",
+                    "went out of circulation in",
+                    "1969"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "6014950976264156000",
+        "input": "who sang never gonna let you go",
+        "response": "Sergio Mendes & Brasil '66",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Sergio Mendes & Brasil '66",
+                    "sang",
+                    "never gonna let you go"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Neutral"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Sergio Mendes & Brasil '66",
+                    "sang",
+                    "never gonna let you go"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Neutral"
+            }
+        ]
+    },
+    {
+        "id": "-5004457603684974952",
+        "input": "who is playing the halftime show at super bowl 2016",
+        "response": "Coldplay",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Super Bowl 2016",
+                    "halftime show performer",
+                    "Coldplay"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Coldplay",
+                    "performing at",
+                    "halftime show at super bowl 2016"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-1206653570097564556",
+        "input": "where does the movie proof of life take place",
+        "response": "Colombia",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Proof of Life",
+                    "takes place in",
+                    "Colombia"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Contradiction"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "movie proof of life",
+                    "takes place in",
+                    "Colombia"
+                ],
+                "claude2_label": "Neutral",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "6405015309290964923",
+        "input": "where did the saying monkey's uncle come from",
+        "response": "",
+        "gpt4_response_kg": [],
+        "claude2_response_kg": []
+    },
+    {
+        "id": "3790834797035922554",
+        "input": "who breaks a tie in the us senate",
+        "response": "Vice President",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Vice President",
+                    "breaks tie in",
+                    "US Senate"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Vice President",
+                    "breaks",
+                    "tie in the us senate"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-6992125597790283273",
+        "input": "when does canada switch to daylight savings time",
+        "response": "The second Sunday in March",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Canada",
+                    "switches to daylight savings time on",
+                    "The second Sunday in March"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Neutral"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Canada",
+                    "switches to",
+                    "daylight savings time"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Neutral",
+                "nli_label": "Neutral"
+            },
+            {
+                "triplet": [
+                    "Switch to daylight savings time in Canada",
+                    "occurs on",
+                    "The second Sunday in March"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Neutral"
+            }
+        ]
+    },
+    {
+        "id": "-610965397636500508",
+        "input": "what is the meaning of the name mandy",
+        "response": "",
+        "gpt4_response_kg": [],
+        "claude2_response_kg": []
+    },
+    {
+        "id": "4876812477232188511",
+        "input": "where does the last name perry come from",
+        "response": "",
+        "gpt4_response_kg": [],
+        "claude2_response_kg": []
+    },
+    {
+        "id": "-7186555013910059700",
+        "input": "chandra and bhaga river meets at the place",
+        "response": "Allahabad",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Chandra river",
+                    "meets with Bhaga river at",
+                    "Allahabad"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Contradiction"
+            },
+            {
+                "triplet": [
+                    "Bhaga river",
+                    "meets with Chandra river at",
+                    "Allahabad"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Contradiction"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "chandra river",
+                    "meets",
+                    "Allahabad"
+                ],
+                "claude2_label": "Neutral",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Neutral"
+            },
+            {
+                "triplet": [
+                    "bhaga river",
+                    "meets",
+                    "Allahabad"
+                ],
+                "claude2_label": "Neutral",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Contradiction"
+            }
+        ]
+    },
+    {
+        "id": "-3428106355897335676",
+        "input": "birth certificates are most often completed by the department",
+        "response": "health",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "birth certificates",
+                    "completed by",
+                    "health department"
+                ],
+                "gpt4_label": "Neutral",
+                "claude2_label": "Neutral",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "birth certificates",
+                    "most often completed by",
+                    "health department"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Neutral"
+            }
+        ]
+    },
+    {
+        "id": "8451264603946634151",
+        "input": "ambulatory is a term used in health care to describe",
+        "response": "A patient who is able to walk without assistance",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "ambulatory",
+                    "used in",
+                    "health care"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "ambulatory",
+                    "describes",
+                    "patient"
+                ],
+                "gpt4_label": "Neutral",
+                "claude2_label": "Neutral",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "patient",
+                    "able to",
+                    "walk without assistance"
+                ],
+                "gpt4_label": "Neutral",
+                "claude2_label": "Neutral",
+                "nli_label": "Neutral"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "ambulatory",
+                    "is term used to describe",
+                    "A patient"
+                ],
+                "claude2_label": "Neutral",
+                "gpt4_label": "Neutral",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "A patient",
+                    "is able to",
+                    "walk without assistance"
+                ],
+                "claude2_label": "Neutral",
+                "gpt4_label": "Neutral",
+                "nli_label": "Neutral"
+            }
+        ]
+    },
+    {
+        "id": "6605227747829720945",
+        "input": "what is the width of a cricket bat",
+        "response": "",
+        "gpt4_response_kg": [],
+        "claude2_response_kg": []
+    },
+    {
+        "id": "8848582210866367992",
+        "input": "who won the nobel peace prize for 2017",
+        "response": "",
+        "gpt4_response_kg": [],
+        "claude2_response_kg": []
+    },
+    {
+        "id": "7539197459439257235",
+        "input": "who sings so come and dance with me jai ho",
+        "response": "",
+        "gpt4_response_kg": [],
+        "claude2_response_kg": []
+    },
+    {
+        "id": "6403691727808631943",
+        "input": "where is wind power used most in the united states",
+        "response": "",
+        "gpt4_response_kg": [],
+        "claude2_response_kg": []
+    },
+    {
+        "id": "8900387163847503723",
+        "input": "who played mr. kincaid on the partridge family",
+        "response": "David Madden",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "David Madden",
+                    "played",
+                    "Mr. Kincaid on The Partridge Family"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "David Madden",
+                    "played",
+                    "mr. kincaid"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "mr. kincaid",
+                    "character on",
+                    "the partridge family"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "334627437220863517",
+        "input": "when did the first battle of ypres end",
+        "response": "November 22, 1914",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "First Battle of Ypres",
+                    "ended on",
+                    "November 22, 1914"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "first battle of ypres",
+                    "ended on",
+                    "November 22, 1914"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "1669394955232263644",
+        "input": "when did the battle of badr take place",
+        "response": "March 17, 624",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Battle of Badr",
+                    "took place on",
+                    "March 17, 624"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Contradiction"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "battle of badr",
+                    "took place on",
+                    "March 17, 624"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Contradiction"
+            }
+        ]
+    },
+    {
+        "id": "-1259577751352734948",
+        "input": "who wrote i want to dance with somebody by whitney houston",
+        "response": "George Merrill and Shannon Rubicam",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "George Merrill",
+                    "co-wrote",
+                    "I Want to Dance with Somebody by Whitney Houston"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Shannon Rubicam",
+                    "co-wrote",
+                    "I Want to Dance with Somebody by Whitney Houston"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "George Merrill",
+                    "wrote",
+                    "i want to dance with somebody"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Shannon Rubicam",
+                    "wrote",
+                    "i want to dance with somebody"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "i want to dance with somebody",
+                    "performed by",
+                    "whitney houston"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "4674269357266381610",
+        "input": "who plays the walking boss in cool hand luke",
+        "response": "Strother Martin",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Strother Martin",
+                    "plays",
+                    "the walking boss in Cool Hand Luke"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Neutral"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Strother Martin",
+                    "plays",
+                    "the walking boss"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Strother Martin",
+                    "plays in",
+                    "cool hand luke"
+                ],
+                "claude2_label": "Neutral",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-7306805811512692008",
+        "input": "where does the red river start and end in louisiana",
+        "response": "The Red River does not start or end in Louisiana. It originates in the Staked Plains of eastern New Mexico and flows through Oklahoma, Texas, Arkansas, and Louisiana before emptying into the Atchafalaya River in Louisiana.",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Red River",
+                    "originates in",
+                    "Staked Plains of eastern New Mexico"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Red River",
+                    "flows through",
+                    "Oklahoma"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Red River",
+                    "flows through",
+                    "Texas"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Red River",
+                    "flows through",
+                    "Arkansas"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Red River",
+                    "flows through",
+                    "Louisiana"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Red River",
+                    "empties into",
+                    "Atchafalaya River in Louisiana"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Red River",
+                    "does not start or end in",
+                    "Louisiana"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Contradiction"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "The Red River",
+                    "does not start in",
+                    "Louisiana"
+                ],
+                "claude2_label": "Neutral",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "The Red River",
+                    "does not end in",
+                    "Louisiana"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Contradiction"
+            },
+            {
+                "triplet": [
+                    "The Red River",
+                    "originates in",
+                    "the Staked Plains of eastern New Mexico"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Contradiction"
+            },
+            {
+                "triplet": [
+                    "The Red River",
+                    "flows through",
+                    "Oklahoma"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "The Red River",
+                    "flows through",
+                    "Texas"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "The Red River",
+                    "flows through",
+                    "Arkansas"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "The Red River",
+                    "flows through",
+                    "Louisiana"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "The Red River",
+                    "empties into",
+                    "the Atchafalaya River"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "the Atchafalaya River",
+                    "located in",
+                    "Louisiana"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "2532633865902253646",
+        "input": "who sang what i like about you originally",
+        "response": "The Romantics",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "The Romantics",
+                    "sang",
+                    "what i like about you originally"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "The Romantics",
+                    "originally sang",
+                    "what i like about you"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "1389300307230755697",
+        "input": "who sang i knew the bride when she used to rock and roll",
+        "response": "Nick Lowe",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Nick Lowe",
+                    "sang",
+                    "I Knew The Bride When She Used To Rock And Roll"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Neutral"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Nick Lowe",
+                    "sang",
+                    "i knew the bride when she used to rock and roll"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Neutral"
+            }
+        ]
+    },
+    {
+        "id": "2191432481376971337",
+        "input": "who owned the colts when they left baltimore",
+        "response": "Robert Irsay",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Colts",
+                    "owned by",
+                    "Robert Irsay"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Colts",
+                    "left",
+                    "Baltimore"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Robert Irsay",
+                    "owned",
+                    "the colts"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "the colts",
+                    "left",
+                    "baltimore"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-5489426796364143729",
+        "input": "who was the first president of the constituent assembly",
+        "response": "Sachchidananda Sinha",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Sachchidananda Sinha",
+                    "was",
+                    "first president of the constituent assembly"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Contradiction"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Sachchidananda Sinha",
+                    "was",
+                    "the first president of the constituent assembly"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Contradiction"
+            }
+        ]
+    },
+    {
+        "id": "3480908309420822259",
+        "input": "who sang the song should have been a cowboy",
+        "response": "Toby Keith",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Toby Keith",
+                    "sang",
+                    "Should Have Been a Cowboy"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Toby Keith",
+                    "sang",
+                    "the song should have been a cowboy"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "3311962143974666464",
+        "input": "how much venom can a king cobra produce",
+        "response": "",
+        "gpt4_response_kg": [],
+        "claude2_response_kg": []
+    },
+    {
+        "id": "2352051038192309240",
+        "input": "where does the brain get its energy from",
+        "response": "Glucose",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Brain",
+                    "gets energy from",
+                    "Glucose"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "brain",
+                    "gets energy from",
+                    "Glucose"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "7735703748660141931",
+        "input": "who sings the theme song for the tv show cops",
+        "response": "Bad Boys",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Bad Boys",
+                    "sings theme song for",
+                    "tv show cops"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Bad Boys",
+                    "sings",
+                    "theme song"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "theme song",
+                    "for",
+                    "tv show cops"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "3028343500075334931",
+        "input": "who had the longest tenure as moderator on meet the press",
+        "response": "Lawrence E. Spivak",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Lawrence E. Spivak",
+                    "had longest tenure as moderator on",
+                    "Meet the Press"
+                ],
+                "gpt4_label": "Contradiction",
+                "claude2_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Lawrence E. Spivak",
+                    "had the longest tenure as",
+                    "moderator on meet the press"
+                ],
+                "claude2_label": "Contradiction",
+                "gpt4_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "1848006246448298349",
+        "input": "where was the killing of a sacred deer filmed",
+        "response": "Cincinnati, Ohio",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "The killing of a sacred deer",
+                    "filmed in",
+                    "Cincinnati, Ohio"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Neutral"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "killing of a sacred deer",
+                    "filmed in",
+                    "Cincinnati, Ohio"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Neutral"
+            }
+        ]
+    },
+    {
+        "id": "-927966355158112429",
+        "input": "the group that officially elects the president of the united states is called",
+        "response": "Electoral College",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Electoral College",
+                    "officially elects",
+                    "president of the united states"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "group that officially elects president of United States",
+                    "called",
+                    "Electoral College"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-5984668857988357373",
+        "input": "the joint between a coxal bone of the pelvis and the sacrum",
+        "response": "Sacroiliac joint",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Sacroiliac joint",
+                    "is",
+                    "joint between a coxal bone of the pelvis and the sacrum"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Contradiction",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Sacroiliac joint",
+                    "is",
+                    "joint"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Sacroiliac joint",
+                    "between",
+                    "coxal bone of pelvis"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Neutral",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "Sacroiliac joint",
+                    "between",
+                    "sacrum"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    },
+    {
+        "id": "-704529031648349308",
+        "input": "who plays red on orange is new black",
+        "response": "Kate Mulgrew",
+        "gpt4_response_kg": [
+            {
+                "triplet": [
+                    "Kate Mulgrew",
+                    "plays",
+                    "Red on Orange is the New Black"
+                ],
+                "gpt4_label": "Entailment",
+                "claude2_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ],
+        "claude2_response_kg": [
+            {
+                "triplet": [
+                    "Kate Mulgrew",
+                    "plays",
+                    "red"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            },
+            {
+                "triplet": [
+                    "red",
+                    "character on",
+                    "orange is new black"
+                ],
+                "claude2_label": "Entailment",
+                "gpt4_label": "Entailment",
+                "nli_label": "Entailment"
+            }
+        ]
+    }
+]
